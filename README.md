@@ -25,18 +25,21 @@ Execute the "BoreholeBootstrap.R" script using the "TestData_KnownBoreholeNoOfLo
 
 # Output Files
 Executing the "BoreholeBootstrap.R" script on the provided Test Data, 6 files are generated. The files are provided in the "Output Files" folder of the repository as follows:
-	- BootstrapResults_10000_40.csv - A summary of mean and standard deviation statistics on all "known" borehole bootstrap results. Due to the randomised nature of bootstrap selection every run (even on the same machine) will be different to the next. For the provided test data and default settings the values obtained in this CSV file should be within 5% of the following values:
-					Mean		Std Dev
-		PB2			0.6015		0.05975
-		PB38		0.4646      0.06109
-		PB122   	0.5716      0.06045
-		PB192   	0.8535      0.04383
-		PB267   	0.7858      0.05069
-	- PB2_10000_40.png - Bootstrap graph image result for "known" borehole PB2, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
-	- PB38_10000_40.png - Bootstrap graph image result for "known" borehole PB38, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
-	- PB122_10000_40.png - Bootstrap graph image result for "known" borehole PB122, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
-	- PB192_10000_40.png - Bootstrap graph image result for "known" borehole PB192, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
-	- PB267_10000_40.png - Bootstrap graph image result for "known" borehole PB267, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
+- BootstrapResults_10000_40.csv: A summary of mean and standard deviation statistics on all "known" borehole bootstrap results. Due to the randomised nature of bootstrap selection every run (even on the same machine) will be different to the next. For the provided test data and default settings the values obtained in this CSV file should be within 5% of the following values:
+
+| Borehole ID | Mean | Std Dev |
+| ------ | ------ | ------ |
+| PB2 | 0.6015 | 0.05975 |
+| PB38 | 0.4646 | 0.06109 |
+| PB122 | 0.5716 | 0.06045 |
+| PB192 | 0.8535 | 0.04383 |
+| PB267 | 0.7858 | 0.05069 |
+
+- PB2_10000_40.png: Bootstrap graph image result for "known" borehole PB2, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
+- PB38_10000_40.png: Bootstrap graph image result for "known" borehole PB38, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
+- PB122_10000_40.png: Bootstrap graph image result for "known" borehole PB122, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
+- PB192_10000_40.png: Bootstrap graph image result for "known" borehole PB192, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
+- PB267_10000_40.png: Bootstrap graph image result for "known" borehole PB267, at 10000 iterations of 40 samples over 1 ha. Displayed values should once again be within 5% of provided values.
 
 # Compatibility notes and dependency information
 This script was tested with R version 3.6.0 (https://www.r-project.org/)
